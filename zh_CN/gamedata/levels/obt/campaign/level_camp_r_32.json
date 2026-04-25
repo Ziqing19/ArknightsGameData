@@ -10740,6 +10740,112 @@
     {
       "motionMode": "WALK",
       "startPosition": {
+        "row": 2,
+        "col": 9
+      },
+      "endPosition": {
+        "row": 2,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [
+        {
+          "type": "MOVE",
+          "time": 0.0,
+          "position": {
+            "row": 2,
+            "col": 7
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": "WAIT_FOR_SECONDS",
+          "time": 10.0,
+          "position": {
+            "row": 0,
+            "col": 0
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        }
+      ],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": "WALK",
+      "startPosition": {
+        "row": 3,
+        "col": 9
+      },
+      "endPosition": {
+        "row": 3,
+        "col": 0
+      },
+      "spawnRandomRange": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "spawnOffset": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "checkpoints": [
+        {
+          "type": "MOVE",
+          "time": 0.0,
+          "position": {
+            "row": 3,
+            "col": 7
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        },
+        {
+          "type": "WAIT_FOR_SECONDS",
+          "time": 10.0,
+          "position": {
+            "row": 0,
+            "col": 0
+          },
+          "reachOffset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "randomizeReachOffset": false,
+          "reachDistance": 0.0
+        }
+      ],
+      "allowDiagonalMove": true,
+      "visitEveryTileCenter": false,
+      "visitEveryNodeCenter": false,
+      "visitEveryCheckPoint": false
+    },
+    {
+      "motionMode": "WALK",
+      "startPosition": {
         "row": 8,
         "col": 1
       },
@@ -12752,7 +12858,181 @@
       "useDb": true,
       "id": "enemy_10062_cjblon",
       "level": 0,
-      "overwrittenData": null
+      "overwrittenData": {
+        "name": {
+          "m_defined": false,
+          "m_value": null
+        },
+        "description": {
+          "m_defined": false,
+          "m_value": null
+        },
+        "prefabKey": {
+          "m_defined": false,
+          "m_value": null
+        },
+        "attributes": {
+          "maxHp": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "atk": {
+            "m_defined": true,
+            "m_value": 1000
+          },
+          "def": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "magicResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "cost": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "blockCnt": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "moveSpeed": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "attackSpeed": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "baseAttackTime": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "respawnTime": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "hpRecoveryPerSec": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "spRecoveryPerSec": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "maxDeployCount": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "massLevel": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "baseForceLevel": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "tauntLevel": {
+            "m_defined": false,
+            "m_value": 0
+          },
+          "epDamageResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "epResistance": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitratePhysical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "damageHitrateMagical": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "epBreakRecoverSpeed": {
+            "m_defined": false,
+            "m_value": 0.0
+          },
+          "stunImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "silenceImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "sleepImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "frozenImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "levitateImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "disarmedCombatImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "fearedImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "palsyImmune": {
+            "m_defined": false,
+            "m_value": false
+          },
+          "attractImmune": {
+            "m_defined": false,
+            "m_value": false
+          }
+        },
+        "applyWay": {
+          "m_defined": false,
+          "m_value": "NONE"
+        },
+        "motion": {
+          "m_defined": false,
+          "m_value": "WALK"
+        },
+        "enemyTags": {
+          "m_defined": false,
+          "m_value": null
+        },
+        "lifePointReduce": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "levelType": {
+          "m_defined": false,
+          "m_value": "NORMAL"
+        },
+        "rangeRadius": {
+          "m_defined": false,
+          "m_value": 0.0
+        },
+        "numOfExtraDrops": {
+          "m_defined": false,
+          "m_value": 0
+        },
+        "viewRadius": {
+          "m_defined": false,
+          "m_value": 0.0
+        },
+        "notCountInTotal": {
+          "m_defined": false,
+          "m_value": false
+        },
+        "talentBlackboard": null,
+        "skills": null,
+        "spData": null
+      }
     },
     {
       "useDb": true,
@@ -14079,7 +14359,7 @@
               "managedByScheduler": true,
               "key": "enemy_10052_cjshld",
               "count": 1,
-              "preDelay": 3.0,
+              "preDelay": 6.0,
               "interval": 24.0,
               "routeIndex": 56,
               "blockFragment": false,
@@ -14100,7 +14380,7 @@
               "managedByScheduler": true,
               "key": "enemy_10052_cjshld",
               "count": 1,
-              "preDelay": 6.0,
+              "preDelay": 3.0,
               "interval": 24.0,
               "routeIndex": 57,
               "blockFragment": false,
@@ -14462,7 +14742,7 @@
               "managedByScheduler": true,
               "key": "enemy_10052_cjshld",
               "count": 1,
-              "preDelay": 3.0,
+              "preDelay": 6.0,
               "interval": 46.0,
               "routeIndex": 74,
               "blockFragment": false,
@@ -14483,7 +14763,7 @@
               "managedByScheduler": true,
               "key": "enemy_10052_cjshld",
               "count": 1,
-              "preDelay": 6.0,
+              "preDelay": 3.0,
               "interval": 46.0,
               "routeIndex": 75,
               "blockFragment": false,
@@ -15089,7 +15369,7 @@
               "managedByScheduler": true,
               "key": "enemy_10056_cjfish_2",
               "count": 1,
-              "preDelay": 3.0,
+              "preDelay": 6.0,
               "interval": 46.0,
               "routeIndex": 103,
               "blockFragment": false,
@@ -15687,7 +15967,7 @@
               "managedByScheduler": true,
               "key": "enemy_10052_cjshld_2",
               "count": 1,
-              "preDelay": 3.0,
+              "preDelay": 6.0,
               "interval": 1.0,
               "routeIndex": 131,
               "blockFragment": false,
@@ -16398,7 +16678,7 @@
               "managedByScheduler": true,
               "key": "enemy_10052_cjshld_2",
               "count": 1,
-              "preDelay": 3.0,
+              "preDelay": 6.0,
               "interval": 1.0,
               "routeIndex": 164,
               "blockFragment": false,
@@ -16641,7 +16921,7 @@
               "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_10053_cjman_2",
-              "count": 2,
+              "count": 1,
               "preDelay": 70.0,
               "interval": 10.0,
               "routeIndex": 175,
@@ -16662,10 +16942,52 @@
               "actionType": "SPAWN",
               "managedByScheduler": true,
               "key": "enemy_10053_cjman_2",
-              "count": 2,
+              "count": 1,
               "preDelay": 73.0,
               "interval": 10.0,
               "routeIndex": 176,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
+              "weight": 0,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false
+            },
+            {
+              "actionType": "SPAWN",
+              "managedByScheduler": true,
+              "key": "enemy_10058_cjfrog",
+              "count": 1,
+              "preDelay": 78.0,
+              "interval": 10.0,
+              "routeIndex": 177,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
+              "weight": 0,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false
+            },
+            {
+              "actionType": "SPAWN",
+              "managedByScheduler": true,
+              "key": "enemy_10058_cjfrog",
+              "count": 1,
+              "preDelay": 83.0,
+              "interval": 10.0,
+              "routeIndex": 178,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
@@ -16686,7 +17008,7 @@
               "count": 2,
               "preDelay": 50.0,
               "interval": 35.0,
-              "routeIndex": 177,
+              "routeIndex": 179,
               "blockFragment": false,
               "autoPreviewRoute": true,
               "autoDisplayEnemyInfo": false,
@@ -16707,7 +17029,7 @@
               "count": 3,
               "preDelay": 28.0,
               "interval": 30.0,
-              "routeIndex": 178,
+              "routeIndex": 180,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
@@ -16726,48 +17048,6 @@
         {
           "preDelay": 30.0,
           "actions": [
-            {
-              "actionType": "SPAWN",
-              "managedByScheduler": true,
-              "key": "enemy_10052_cjshld_2",
-              "count": 1,
-              "preDelay": 3.0,
-              "interval": 1.0,
-              "routeIndex": 179,
-              "blockFragment": false,
-              "autoPreviewRoute": false,
-              "autoDisplayEnemyInfo": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false,
-              "hiddenGroup": null,
-              "randomSpawnGroupKey": null,
-              "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
-              "weight": 0,
-              "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
-            },
-            {
-              "actionType": "SPAWN",
-              "managedByScheduler": true,
-              "key": "enemy_10052_cjshld_2",
-              "count": 1,
-              "preDelay": 3.0,
-              "interval": 1.0,
-              "routeIndex": 180,
-              "blockFragment": false,
-              "autoPreviewRoute": false,
-              "autoDisplayEnemyInfo": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false,
-              "hiddenGroup": null,
-              "randomSpawnGroupKey": null,
-              "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
-              "weight": 0,
-              "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
-            },
             {
               "actionType": "SPAWN",
               "managedByScheduler": true,
@@ -16939,13 +17219,13 @@
             {
               "actionType": "SPAWN",
               "managedByScheduler": true,
-              "key": "enemy_10050_cjmeat_2",
-              "count": 7,
-              "preDelay": 16.0,
-              "interval": 2.0,
+              "key": "enemy_10052_cjshld_2",
+              "count": 1,
+              "preDelay": 3.0,
+              "interval": 1.0,
               "routeIndex": 189,
               "blockFragment": false,
-              "autoPreviewRoute": true,
+              "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
               "isUnharmfulAndAlwaysCountAsKilled": false,
               "hiddenGroup": null,
@@ -16960,9 +17240,9 @@
             {
               "actionType": "SPAWN",
               "managedByScheduler": true,
-              "key": "enemy_10058_cjfrog_2",
+              "key": "enemy_10052_cjshld_2",
               "count": 1,
-              "preDelay": 70.0,
+              "preDelay": 3.0,
               "interval": 1.0,
               "routeIndex": 190,
               "blockFragment": false,
@@ -16981,11 +17261,53 @@
             {
               "actionType": "SPAWN",
               "managedByScheduler": true,
+              "key": "enemy_10050_cjmeat_2",
+              "count": 7,
+              "preDelay": 16.0,
+              "interval": 2.0,
+              "routeIndex": 191,
+              "blockFragment": false,
+              "autoPreviewRoute": true,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
+              "weight": 0,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false
+            },
+            {
+              "actionType": "SPAWN",
+              "managedByScheduler": true,
               "key": "enemy_10058_cjfrog_2",
               "count": 1,
-              "preDelay": 76.0,
+              "preDelay": 75.0,
               "interval": 1.0,
-              "routeIndex": 191,
+              "routeIndex": 192,
+              "blockFragment": false,
+              "autoPreviewRoute": false,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
+              "weight": 0,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false
+            },
+            {
+              "actionType": "SPAWN",
+              "managedByScheduler": true,
+              "key": "enemy_10058_cjfrog_2",
+              "count": 1,
+              "preDelay": 82.0,
+              "interval": 1.0,
+              "routeIndex": 193,
               "blockFragment": false,
               "autoPreviewRoute": true,
               "autoDisplayEnemyInfo": false,
@@ -17006,7 +17328,7 @@
               "count": 1,
               "preDelay": 3.0,
               "interval": 1.0,
-              "routeIndex": 192,
+              "routeIndex": 194,
               "blockFragment": false,
               "autoPreviewRoute": true,
               "autoDisplayEnemyInfo": false,
@@ -17027,7 +17349,7 @@
               "count": 1,
               "preDelay": 5.0,
               "interval": 1.0,
-              "routeIndex": 193,
+              "routeIndex": 195,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
@@ -17048,7 +17370,7 @@
               "count": 1,
               "preDelay": 7.0,
               "interval": 1.0,
-              "routeIndex": 194,
+              "routeIndex": 196,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
@@ -17069,49 +17391,49 @@
               "count": 1,
               "preDelay": 28.0,
               "interval": 1.0,
-              "routeIndex": 195,
-              "blockFragment": false,
-              "autoPreviewRoute": true,
-              "autoDisplayEnemyInfo": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false,
-              "hiddenGroup": null,
-              "randomSpawnGroupKey": null,
-              "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
-              "weight": 0,
-              "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
-            },
-            {
-              "actionType": "SPAWN",
-              "managedByScheduler": true,
-              "key": "enemy_10052_cjshld_2",
-              "count": 1,
-              "preDelay": 3.0,
-              "interval": 1.0,
-              "routeIndex": 196,
-              "blockFragment": false,
-              "autoPreviewRoute": true,
-              "autoDisplayEnemyInfo": false,
-              "isUnharmfulAndAlwaysCountAsKilled": false,
-              "hiddenGroup": null,
-              "randomSpawnGroupKey": null,
-              "randomSpawnGroupPackKey": null,
-              "randomType": "ALWAYS",
-              "refreshType": "ALWAYS",
-              "weight": 0,
-              "dontBlockWave": false,
-              "forceBlockWaveInBranch": false
-            },
-            {
-              "actionType": "SPAWN",
-              "managedByScheduler": true,
-              "key": "enemy_10052_cjshld_2",
-              "count": 1,
-              "preDelay": 3.0,
-              "interval": 1.0,
               "routeIndex": 197,
+              "blockFragment": false,
+              "autoPreviewRoute": true,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
+              "weight": 0,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false
+            },
+            {
+              "actionType": "SPAWN",
+              "managedByScheduler": true,
+              "key": "enemy_10052_cjshld_2",
+              "count": 1,
+              "preDelay": 6.0,
+              "interval": 1.0,
+              "routeIndex": 198,
+              "blockFragment": false,
+              "autoPreviewRoute": true,
+              "autoDisplayEnemyInfo": false,
+              "isUnharmfulAndAlwaysCountAsKilled": false,
+              "hiddenGroup": null,
+              "randomSpawnGroupKey": null,
+              "randomSpawnGroupPackKey": null,
+              "randomType": "ALWAYS",
+              "refreshType": "ALWAYS",
+              "weight": 0,
+              "dontBlockWave": false,
+              "forceBlockWaveInBranch": false
+            },
+            {
+              "actionType": "SPAWN",
+              "managedByScheduler": true,
+              "key": "enemy_10052_cjshld_2",
+              "count": 1,
+              "preDelay": 3.0,
+              "interval": 1.0,
+              "routeIndex": 199,
               "blockFragment": false,
               "autoPreviewRoute": false,
               "autoDisplayEnemyInfo": false,
@@ -17224,7 +17546,8 @@
             "value": 0.0,
             "valueStr": "summon_cjglon"
           }
-        ]
+        ],
+        "overrideTalents": null
       },
       {
         "position": {
@@ -17254,7 +17577,8 @@
             "value": 0.0,
             "valueStr": "summon_cjblon"
           }
-        ]
+        ],
+        "overrideTalents": null
       }
     ],
     "characterCards": [],
